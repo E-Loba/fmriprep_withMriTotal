@@ -1,3 +1,16 @@
+A branch of fMRIPrep based on 23.1.4 kept behind date purposely to ensure reproducibility in the pipeline.
+
+forced to use smriprep <= 0.12.2
+
+to reinstall the image:
+ - clone the repository
+ - navigate into the repository
+ - run the following command:
+`docker build --rm --no-cache --tag fmriprep-atr:<version> .`
+
+consult with `docker images ls` to decide which version tag you want to use.
+
+
 *fMRIPrep*: A Robust Preprocessing Pipeline for fMRI Data
 =========================================================
 *fMRIPrep* is a *NiPreps (NeuroImaging PREProcessing toolS)* application
