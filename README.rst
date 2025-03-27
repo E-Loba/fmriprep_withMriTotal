@@ -6,9 +6,9 @@ to reinstall the image:
  - clone the repository
  - navigate into the repository
  - run the following command:
-`docker build --rm --no-cache --tag fmriprep-atr:<version> .`
+``docker build --rm --no-cache --tag fmriprep-atr:<version> .``
 
-consult with `docker images ls` to decide which version tag you want to use.
+consult with ``docker image ls`` to decide which version tag you want to use.
 
 
 *fMRIPrep*: A Robust Preprocessing Pipeline for fMRI Data
